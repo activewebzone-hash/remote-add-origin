@@ -1,4 +1,0 @@
-const serverless = require('serverless-http');
-const app = require('../../server'); // Project root me rakhi server.js file ko import kar raha hai
-
-module.exports.handler = serverless(app);
